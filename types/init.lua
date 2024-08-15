@@ -226,6 +226,15 @@ local Palette = {
 	},
 }
 
+---@alias AudibleBell "SystemBeep" | "Disabled"
+
+---@class VisualBell
+---@field fade_in_duration_ms integer
+---@field fade_out_duration_ms integer
+---@field fade_in_function integer
+---@field fade_out_function integer
+---@field target "BackgroundColor" | "CursorColor"
+
 ---@alias FontWeight "Thin" | "ExtraLight" | "Light" | "DemiLight" | "Book" | "Regular" | "Medium" | "DemiBold" | "Bold" | "ExtraBold" | "Black" | "ExtraBlack"
 ---@alias FontStretch "UltraCondensed" | "ExtraCondensed" | "Condensed" | "SemiCondensed" | "Normal" | "SemiExpanded" | "Expanded" | "ExtraExpanded" | "UltraExpanded"
 ---@alias FontStyle "Normal" | "Italic" | "Oblique"
